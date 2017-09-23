@@ -75,7 +75,7 @@ function createRock(x) {
    */
    var element = document.createElement('div')
    element.setAttribute("style","bottom: 400px; left: 180px;")
-   element.setAttribute()"style","backgroundColor: #f9f9f9;")
+   element.setAttribute("style","backgroundColor: #f9f9f9;")
    GAME.appendChild(element)
 
   /**
