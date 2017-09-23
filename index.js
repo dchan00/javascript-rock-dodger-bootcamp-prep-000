@@ -138,7 +138,7 @@ function endGame() {
 
 
   var listDivs = document.querySelectorAll('.rock')
-  for(let i=0; i>listDivs.length; i++)
+  for(let i=0; i<listDivs.length; i++)
   {
     listDivs[i].remove()
   }
