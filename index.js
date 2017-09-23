@@ -135,7 +135,7 @@ function endGame() {
   clearInterval(gameInterval)
   window.removeEventListener('keydown',moveDodger)
 
-  
+
   //SOLUTION#1
   //var listDivs = document.querySelectorAll('.rock')
   //for(let i=0; i<listDivs.length; i++)
@@ -148,7 +148,7 @@ function endGame() {
   for(let i=0; i<ROCKS.length; i++){
     ROCKS[i].remove()
   }
-  
+
   alert('YOU LOSE!')
 }
 
