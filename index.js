@@ -135,8 +135,10 @@ function endGame() {
   window.removeEventListener('keydown',moveDodger)
 
   var listDivs = GAME.querySelectorAll('div')
-  
-
+  for(let i=listDivs.length; i>1; i--)
+  {
+    listDivs[i].remove()
+  }
 }
 
 function moveDodger(e) {
@@ -161,7 +163,7 @@ function moveDodger(e) {
     {
       e.preventDefault()
     }
-    
+
 
 
    //document.addEventListener('keydown', function(e){
