@@ -135,13 +135,13 @@ function endGame() {
   window.removeEventListener('keydown',moveDodger)
   ROCKS.length=0
 
-  var listDivs = GAME.querySelectorAll('div')
-  for(let i=1; i>listDivs.length; i++)
-  {
-    listDivs[i].remove()
-  }
-  listDivs.length=0
-  alert('YOU LOSE!')
+  //var listDivs = GAME.querySelectorAll('div')
+  //for(let i=1; i>listDivs.length; i++)
+  //{
+  //  listDivs[i].remove()
+  //}
+  //listDivs.length=0
+  //alert('YOU LOSE!')
 }
 
 function moveDodger(e) {
