@@ -75,6 +75,7 @@ function createRock(x) {
    */
    var element = document.createElement('div')
    element.setAttribute("style","bottom: 400px; left: 180px;");
+   element.style.backgroundColor('#f9f9f9')
    GAME.appendChild(element)
 
   /**
@@ -133,7 +134,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
   window.removeEventListener('keydown',moveDodger)
-  
+
 
   //var listDivs = GAME.querySelectorAll('div')
   //for(let i=1; i>listDivs.length; i++)
