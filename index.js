@@ -114,7 +114,7 @@ function createRock(x) {
      * we should remove the rock from the DOM
      */
   }
-  //window.requestAnimationFrame(moveRock)
+  window.requestAnimationFrame(moveRock)
   // We should kick of the animation of the rock around here
 
   // Add the rock to ROCKS so that we can remove all rocks
@@ -133,6 +133,7 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
+  ROCKS.length=0
   window.removeEventListener('keydown',moveDodger)
 
 
