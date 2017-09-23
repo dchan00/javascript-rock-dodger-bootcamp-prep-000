@@ -137,7 +137,7 @@ function endGame() {
   var listDivs = GAME.querySelectorAll('div')
   for(let i=listDivs.length; i>1; i--)
   {
-    listDivs[i].remove()
+    listDivs[i-1].remove()
   }
 }
 
