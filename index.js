@@ -161,7 +161,7 @@ function moveDodger(e) {
     {
       e.preventDefault()
     }
-    
+
 
 
    //document.addEventListener('keydown', function(e){
