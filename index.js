@@ -133,15 +133,15 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
-  ROCKS.length = 0
+  //ROCKS.length = 0
   window.removeEventListener('keydown',moveDodger)
 
 
-  var listDivs = document.querySelectorAll('.rock')
-  for(let i=0; i<listDivs.length; i++)
-  {
-    listDivs[i].remove()
-  }
+  //var listDivs = document.querySelectorAll('.rock')
+  //for(let i=0; i<listDivs.length; i++)
+  //{
+  //  listDivs[i].remove()
+  //}
   //listDivs.length=0
   alert('YOU LOSE!')
 }
