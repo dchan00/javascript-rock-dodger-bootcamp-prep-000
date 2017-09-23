@@ -134,9 +134,9 @@ function endGame() {
   clearInterval(gameInterval)
   window.removeEventListener('keydown',moveDodger)
 
+  var listDivs = GAME.querySelectorAll('div')
+  
 
-
-  //document.body.removeEventListener('keydown', moveDodger)
 }
 
 function moveDodger(e) {
@@ -161,7 +161,7 @@ function moveDodger(e) {
     {
       e.preventDefault()
     }
-
+    
 
 
    //document.addEventListener('keydown', function(e){
