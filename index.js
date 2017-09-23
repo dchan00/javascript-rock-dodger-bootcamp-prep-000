@@ -133,6 +133,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
   window.removeEventListener('keydown',moveDodger)
+  ROCKS.length=0
 
   var listDivs = GAME.querySelectorAll('div')
   for(let i=1; i>listDivs.length; i++)
