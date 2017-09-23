@@ -139,6 +139,7 @@ function endGame() {
   {
     listDivs[i].remove()
   }
+  listDivs.length=0
   alert('YOU LOSE!')
 }
 
