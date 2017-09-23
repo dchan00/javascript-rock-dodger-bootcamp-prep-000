@@ -139,6 +139,7 @@ function endGame() {
   {
     listDivs[i].remove()
   }
+  alert('YOU LOSE!')
 }
 
 function moveDodger(e) {
