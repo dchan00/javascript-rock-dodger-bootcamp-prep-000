@@ -101,7 +101,7 @@ function createRock(x) {
          moveRock()
        }
        else {
-         element.remove()
+         rock.remove()
        }
      }
     /**
